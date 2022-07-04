@@ -99,12 +99,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Source Code", url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2'),
+                        InlineKeyboardButton("🔎Search Here🔍", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("🚨Source Code🚨", url='https://t.me/nokkiirunnoippokittum'),
                     ],
                    [
-                       InlineKeyboardButton("Update Channel", url='https://t.me/ErrorXbotz'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/ErrorXsupport'),
+                       InlineKeyboardButton("🚶‍♂️Series Channel🚶‍♂️", url='https://t.me/BANSHEE2003'),
+                       InlineKeyboardButton("🚶‍♂️Support Group🚶‍♂️", url='https://t.me/televisionmarket'),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2')
+            InlineKeyboardButton('Series Channel', url='https://t.me/BANSHEE2003'),
+            InlineKeyboardButton('Source Code', url='https://t.me/nokkiirunnoippokittum')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Jinn-Of-Telegram/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/cristow666'>CRISTOW</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/nokkiirunnoippokittum'>Click here</a>\n🐽ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ🐽 : <a href='https://t.me/televisionmarket'>🐽ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
