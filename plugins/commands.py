@@ -107,7 +107,7 @@ async def start(bot, cmd):
                        InlineKeyboardButton("🚶‍♂️Support Group🚶‍♂️", url='https://t.me/televisionmarket'),
                     ],
                      [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("🛠About🛠", callback_data="about")
                     ]
                 ]
             )
