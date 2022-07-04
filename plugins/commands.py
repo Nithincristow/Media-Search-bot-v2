@@ -200,4 +200,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://t.me/nokkiirunnoippokittum')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/cristow666'>CRISTOW</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/nokkiirunnoippokittum'>Click here</a>\n🐽ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ🐽 : <a href='https://t.me/televisionmarket'>🐽ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/cristow666'>CRISTOW</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/nokkiirunnoippokittum'>Click here</a>\n🐽ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ🐽 : <a href='https://t.me/televisionmarket'>ᴛᴇʟᴇᴠɪsɪᴏɴ ᴍᴀʀᴋᴇᴛ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
